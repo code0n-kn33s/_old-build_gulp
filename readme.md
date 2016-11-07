@@ -1,0 +1,1 @@
+Hello! It`s ready build for new project.
