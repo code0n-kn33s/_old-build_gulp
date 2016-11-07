@@ -19,7 +19,7 @@ gulp.task('sass', function() {
         .pipe(browserSync.reload({ stream: true }))
 });
 
-gulp.task('js', function() {
+gulp.task('js-libs', function() {
     return gulp.src([
             'app/libs/jquery/dist/jquery.min.js',
             'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js',
@@ -68,7 +68,7 @@ gulp.task('browser-sync', function() {
     })
 });
 
-gulp.task('watch', ['browser-sync', 'css-libs', 'js'], function() {
+gulp.task('watch', ['browser-sync', 'css-libs', 'js-libs'], function() {
     gulp.watch('app/sass/**/*.+(sass|scss)', ['sass']);
     gulp.watch('app/css/**/modules.css', browserSync.reload);
     gulp.watch('app/js/**/*.js', browserSync.reload);
@@ -76,7 +76,7 @@ gulp.task('watch', ['browser-sync', 'css-libs', 'js'], function() {
 
 });
 
-gulp.task('build', ['clean', 'img', 'sass', 'js'], function() {
+gulp.task('build', ['clean', 'img', 'sass', 'js-libs'], function() {
     var buildCss = gulp.src([
             'app/css/**/*.css'
         ])
