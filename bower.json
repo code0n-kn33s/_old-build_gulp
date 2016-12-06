@@ -2,12 +2,12 @@
     "name": "my-project",
     "version": "0.0.1",
     "dependencies": {
-        "modernizr": "~2.6.2",
-        "bootstrap": "~2.2.2",
+        "modernizr": "",
+        "bootstrap": "",
         "jquery": "",
         "magnific-popup": "",
         "underscore": "",
-        "font-awesome": "3.0.2",
-        "emoji": "0.1.2"
+        "font-awesome": "",
+        "emoji": ""
     }
 }
