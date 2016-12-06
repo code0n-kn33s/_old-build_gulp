@@ -1,0 +1,56 @@
+/*Глобальные стили*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: ;
+    height: 100%;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, :before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit
+}
+
+
+/* вставка для imput, для заполнения пустых полей */
+
+body input:focus:required:invalid, body textarea:focus:required:invalid {}
+
+body input:required:invalid, body textarea:required:invalid {}
+
+
+/* отмена выделения */
+
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+
+/* для отмены выделения */
+
+.img_info {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+
+/*для IE*/
+
+header, nav, section, article, aside, footer {
+    display: block
+}
+
+
+/* ПОЕХАЛИ */
