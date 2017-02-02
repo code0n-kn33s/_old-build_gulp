@@ -1,15 +1,16 @@
-/*Глобальные стили*/
+/*------------- adjustment -------------*/
 
 body {
     margin: 0;
     padding: 0;
-    font-family: ;
     height: 100%;
     -o-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-*, :before, :after {
+*,
+:before,
+:after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -22,14 +23,16 @@ body {
 }
 
 
-/* вставка для imput, для заполнения пустых полей */
+/*------------- input -------------*/
 
-body input:focus:required:invalid, body textarea:focus:required:invalid {}
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {}
 
-body input:required:invalid, body textarea:required:invalid {}
+body input:required:invalid,
+body textarea:required:invalid {}
 
 
-/* отмена выделения */
+/*------------- отмена выделения -------------*/
 
 body {
     -webkit-user-select: none;
@@ -38,7 +41,7 @@ body {
 }
 
 
-/* для отмены выделения */
+/*------------- img -------------*/
 
 .img_info {
     margin-left: 0;
@@ -46,11 +49,16 @@ body {
 }
 
 
-/*для IE*/
+/*------------- IE -------------*/
 
-header, nav, section, article, aside, footer {
+header,
+nav,
+section,
+article,
+aside,
+footer {
     display: block
 }
 
 
-/* ПОЕХАЛИ */
+/*------------- go -------------*/
