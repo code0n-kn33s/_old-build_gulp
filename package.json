@@ -14,14 +14,18 @@
         "gulp": "*",
         "gulp-autoprefixer": "*",
         "gulp-cache": "*",
+        "gulp-clean-css": "*",
         "gulp-concat": "*",
         "gulp-cssnano": "*",
+        "gulp-if": "*",
         "gulp-imagemin": "*",
         "gulp-notify": "*",
         "gulp-rename": "*",
         "gulp-sass": "*",
         "gulp-scss": "*",
         "gulp-uglifyjs": "*",
-        "imagemin-pngquant": "*"
+        "gulp-useref": "*",
+        "imagemin-pngquant": "*",
+        "wiredep": "*"
     }
 }

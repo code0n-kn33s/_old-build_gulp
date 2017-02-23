@@ -2,12 +2,8 @@
     "name": "my-project",
     "version": "0.0.1",
     "dependencies": {
-        "modernizr": "",
-        "bootstrap": "",
-        "jquery": "",
-        "magnific-popup": "",
-        "underscore": "",
-        "font-awesome": "",
-        "emoji": ""
+        "jquery": "*",
+        "normalize-css": "*",
+        "jquery-mousewheel": "*"
     }
 }
